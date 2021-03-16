@@ -6,17 +6,51 @@
 
 Term: Spring 2021
 
-+ Team ##
++ Team #3
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
+	+ Maslova, Olha
+	+ Li, Qiao
+	+ Morrissey, Mark
+	+ Yang, Yutong
+	+ Zhang, Renyin
 
-+ Project summary: In this project, we created a classification engine for facial emotion recognition. 
++ Project summary: In this project, we created a binary classification engine for facial emotion recognition to differentiate simple emotions (label 1) from complex (label 0). We built several classifiers including GBM, SVC, Linear Regression, KNN, Random Forest, XGBoost, CNN, and Densely connected Neural Network. Given that the dataset was imbalanced we tried diffierent techniques to reduce model overfitting: 
+	+ SMOTE undersampling and oversample;
+	+ Regularizations in Dense Neural Networks;
+	+ Droupout and BatchNormalization layers in both CNN and Neural Networks;
+Our dataprocessing included generating features from the given fiducial points and reducing the image size for CNNs.
+
+For our Baseline model - GBM - we got the following results:
+
+	Accuracy: 0.86
+	AUC: 0.
+	Training time: 
+	Testing time: 
+	Memory use: 
+
+For our Advenced model - Weighted SVC - we got the following results:
+
+	Accuracy: 0.
+	AUC: 0.
+	Training time: 
+	Testing time: 
+	Memory use: 
 	
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+
+**Note: models in bold were a focus of the contributor**
+
++ Maslova, Olha: managed communications; pre-processed data for Neural Networks; implemented GBM, **CNN, and Neural Network**. Contributed to presenatation, organization of main.ipynb. Wrote Github ReadMes.
+
++ Li, Qiao: pre-processed fiducial points data; implemented **Weighted SVMs (fine-tuned)**, KNeighborsClassifier (slightly fine-tuned), DecisionTreeClassifier (not fine-tuned), RandomForestClassifier(not fine-tuned), AdaBoostClassifier (not fine-tuned); Contributed to presenatation, organization of main.ipynb and all other Github files.
+
++ Morrissey, Mark: implemented XGBoost, Ridge Classifier, Adaboost, and **Voting classifier**; Contributed to presenatation;
+
++ Yang, Yutong: performed initial model trial (SVC, KNN, SGD, RandomForest, Adaboost, XGBoost) implemented **CNN**; Contributed to presenatation, organization of main.ipynb and all other Github files. Re-run all the models to time .
+
+
++ Zhang, Renyin: 
+
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
