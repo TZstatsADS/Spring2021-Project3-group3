@@ -28,7 +28,7 @@ For our Baseline model - GBM - we got the following results:
 	Testing time: 
 	Memory use: 
 
-For our Advenced model - Weighted SVC - we got the following results:
+For our Advanced model - Weighted SVC - we got the following results:
 
 	Accuracy: 0.
 	AUC: 0.
@@ -44,7 +44,7 @@ For our Advenced model - Weighted SVC - we got the following results:
 
 + Li, Qiao: pre-processed fiducial points data; implemented **Weighted SVMs (fine-tuned)**, KNeighborsClassifier (slightly fine-tuned), DecisionTreeClassifier (not fine-tuned), RandomForestClassifier(not fine-tuned), AdaBoostClassifier (not fine-tuned); Contributed to presenatation, organization of main.ipynb and all other Github files.
 
-+ Morrissey, Mark: implemented XGBoost, Ridge Classifier, Adaboost, and **Voting classifier**; Contributed to presenatation;
++ Morrissey, Mark: implemented XGBoost, Ridge Classifier, Adaboost, and **Voting classifier**; Fine-tuned logistic regression and an alternative SVM for use in the final Voting Classifier model. Explored PCA and recursive feature elimination for dimensionality reduction reduction (did not improve error rate). Contributed to presenatation;
 
 + Yang, Yutong: performed initial model trial (SVC, KNN, SGD, RandomForest, Adaboost, XGBoost) implemented **CNN**; Contributed to presenatation, organization of main.ipynb and all other Github files. Re-run all the models to time .
 
