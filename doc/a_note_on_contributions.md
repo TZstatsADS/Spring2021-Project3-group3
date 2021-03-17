@@ -1,20 +1,15 @@
 ### A Note on Contributions
 
-Whenever we have team projects, there are always concerns on unequal contributions from members of a project team. In the ideal world, we are all here to put in our best efforts and learn together. Even in that ideal world, we have different skill sets and preparations, and we will still contribute differently to a project. 
+**Contribution statement**: All team members contributed equally in all stages of this project, participated in discussions and brainstorming activities. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
-Therefore, you are required to post a *contribution statement* in the root README.md of your GitHub repo. Please beware that your GitHub repo will become public and remain public after the due date of the projects. 
+**Note: models in bold were a focus of the contributor**
 
-Post your title, team members, project abstract and a contribution statement in the README.md file.  This is a common practice for research scientific journals. 
++ Maslova, Olha: managed communications; pre-processed data for Neural Networks; implemented GBM, **CNN on raw image data, and Neural Network on combined image and fiducial points data**. Contributed to presenatation, organization of Github files, Github ReadMes, and main.ipynb.
 
-Below is an example. If no contribution statement is provided, we will insert a default statement that goes "**All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement**. "
++ Li, Qiao: pre-processed fiducial points data; implemented **Weighted SVMs (fine-tuned)**, KNeighborsClassifier (slightly fine-tuned), DecisionTreeClassifier (not fine-tuned), RandomForestClassifier(not fine-tuned), AdaBoostClassifier (not fine-tuned); Contributed to presenatation, organization of main.ipynb and all other Github files, Github ReadMes, test script
 
----
-Sample project README statement.
++ Morrissey, Mark: implemented XGBoost, Ridge Classifier, Adaboost, and **Voting classifier (fine-tuned)**; Fine-tuned logistic regression and an alternative SVM for use in the final Voting Classifier model. Explored PCA and recursive feature elimination for dimensionality reduction reduction (did not improve error rate). Contributed to presenatation, Github ReadMes.
 
-Project xxx
++ Yang, Yutong: performed initial model trials (SVC, KNN, SGD, RandomForest, Adaboost, XGBoost). Fine-tuned GBM on on fiducial points. Implemented **CNN** on raw images; Contributed to presenatation, organization of main.ipynb, all other Github files, Github ReadMes. Re-run all the models to time.
 
-Team members: Avi Bond, Comma Deed, En Funn, Gem Hon
-
-Summary: In this project, we developed a new method and improved the classification accuracy for images of cats and dogs to 99.9%
-
-[Contribution Statement] AB, CD, EF and GH designed the study. AB and CD developed baseline classification model for evaluation. EF and GH explored feature engineering for improving the baseline model. AB, EF and GH discussed and designed the model evaluation protocol. CD carried out the computation for model evaluation. All team members contributed to the GitHub repository and prepared the presentation. All team members approve our work presented in our GitHub repository including this contribution statement.
++ Zhang, Renyin: Researched possible models and fine tuned the models that teammates created, focusing on cnn and AdaBoost with SVM.
