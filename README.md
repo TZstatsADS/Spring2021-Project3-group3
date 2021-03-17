@@ -42,7 +42,7 @@ For our Advanced model - Weighted SVC - we got the following results:
 
 **Note: models in bold were a focus of the contributor**
 
-+ Maslova, Olha: managed communications; pre-processed data for Neural Networks; implemented GBM, **CNN on raw image data, and Neural Network on combined image and fiducial points data**. Contributed to presenatation, organization of Github files, Github ReadMes, and main.ipynb.
++ Maslova, Olha: managed communications; pre-processed data for Neural Networks; implemented GBM, **CNN on raw image data, and Neural Network on combined image and fiducial points data**. Contributed to presenatation, organization of Github files, Github ReadMes, and main.ipynb. Tested main.ipynb.
 
 + Li, Qiao: pre-processed fiducial points data; implemented **Weighted SVMs (fine-tuned)**, KNeighborsClassifier (slightly fine-tuned), DecisionTreeClassifier (not fine-tuned), RandomForestClassifier(not fine-tuned), AdaBoostClassifier (not fine-tuned); Contributed to presenatation, organization of main.ipynb and all other Github files, Github ReadMes, test script
 
