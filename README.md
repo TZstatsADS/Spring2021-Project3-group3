@@ -28,7 +28,6 @@ For our Baseline model - GBM - we got the following results:
 	AUC: 0.94
 	Training time: 344.22 seconds
 	Testing time: 0.00006 seconds per point
-	Memory use: 
 
 For our Advanced model - Weighted SVC - we got the following results:
 
@@ -38,7 +37,6 @@ For our Advanced model - Weighted SVC - we got the following results:
 	AUC: 0.9465
 	Training time: 62.867 seconds
 	Testing time: 0.007 seconds per point
-	Memory use: 
 	
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
