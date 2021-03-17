@@ -54,6 +54,9 @@ For our Advanced model - Weighted SVC - we got the following results:
 
 + Zhang, Renyin: Researched possible models and fine tuned the models that teammates created, focusing on cnn and AdaBoost with SVM.
 
+**In order to start**: Follow the link download then install python and Anaconda.
+https://docs.anaconda.com/anaconda/install/
+
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
 ```
