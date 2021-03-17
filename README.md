@@ -55,6 +55,13 @@ For our Advanced model - Weighted SVC - we got the following results:
 **In order to start**: Follow the link download then install python and Anaconda.
 https://docs.anaconda.com/anaconda/install/
 
+**Sources:**
+- Hands-On Machine Learning with Scikit-Learn & TensorFlow,  Aurelien Geron
+- Deep Learning with Python, Francois Chollet
+- https://www.tensorflow.org/tutorials/images/classification
+- https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
+
+
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
 ```
