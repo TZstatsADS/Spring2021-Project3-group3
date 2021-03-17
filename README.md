@@ -60,6 +60,7 @@ https://docs.anaconda.com/anaconda/install/
 - Deep Learning with Python, Francois Chollet
 - https://www.tensorflow.org/tutorials/images/classification
 - https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
+- https://www.mathworks.com/help/vision/ref/triangulate.html
 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
